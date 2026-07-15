@@ -47,3 +47,5 @@ A modern, ultra-fast linter designed by the Oxc toolchain team. Built from scrat
 Many modern production projects choose to use both tools simultaneously:
 1. **Oxlint** runs locally during development and code editing for instant, lightning-fast bug feedback.
 2. **ESLint** runs via [eslint-plugin-oxlint](https://npmjs.com) during continuous integration (CI/CD) pipelines to catch complex architectural rule violations before deployment.
+
+
