@@ -12,9 +12,6 @@ function UserProfile({ user }: UserProfileProps) {
             <p>Helllo {username}</p>
             <p>My Age is : {age}</p>
             <p>{isAdmin ? "Yes, I am an admin." : "No, I am not an admin."}</p>
-
-
-
         </div>
     )
 }

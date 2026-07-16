@@ -1,13 +1,13 @@
 
 interface CardWithArrayProps{
-    data:string[]
+    fruitList:string[]
 }
 
-function CardWithArray({ data }: CardWithArrayProps) {
+function CardWithArray({ fruitList }: CardWithArrayProps) {
     return (
         <div className="card">
             <h2>Card With Array Component</h2>  
-            {data.map((item, index) => (
+            {fruitList.map((item, index) => (
                 <p key={index}>{item}</p>
             ))}
         </div>
