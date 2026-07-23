@@ -31,7 +31,7 @@ function App() {
     return <img src={src} height={height} width={width} />
   }
 
-  const userData: User = { username: "mohan lal", age: 45, isAdmin: false }
+  const userData: User = { username: "mohan lal", age: 45, isAdmin: true }
 
   return (
     <>
